@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .parent {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .child {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+        gap: 60px;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+      }
+      img {
+        border-radius: 5px;
+        object-fit: cover;
+        width: 400px;
+        height: 200px;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+    </style>
+    <div class="parent">
+      <div class="child">
+        <div class="item">
+          <h1>
+            Launch fast your great
+            <br />
+            product
+          </h1>
+          <p>
+            Start saving your timewith Framer
+            <br />
+            Wireframe Web UI Kit
+          </p>
+          <button>Download Now</button>
+        </div>
+        <div class="image-item">
+          <img src="https://via.placeholder.com/150" alt="placeholder" />
+        </div>
+      </div>
+      <div class="child">
+        <div class="image-item">
+          <img src="https://via.placeholder.com/150" alt="placeholder" />
+        </div>
+        <div class="item">
+          <h1>
+            Launch fast your great
+            <br />
+            product
+          </h1>
+          <p>
+            Start saving your timewith Framer
+            <br />
+            Wireframe Web UI Kit
+          </p>
+          <button>Download Now</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

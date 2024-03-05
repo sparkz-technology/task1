@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+}
+.centerDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.header > h1 {
+  margin: 0;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  size: 48px;
+  color: #132433;
+}
+.header > p {
+  color: #557087;
+  size: 20px;
+}
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.tab {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  border-bottom: 3px solid #ccc;
+  text-align: start;
+  padding: 20px 20px 20px 0;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.active {
+  border-bottom: 3px solid blue;
+}
+.content-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.content-card > p {
+  size: 20px;
+}
+.card {
+  padding: 30px;
+  width: 300px;
+  border-radius: 5px;
+}
+.content-inem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.primary-card {
+  background-color: #e0e8f0;
+}
+.secondary-card {
+  background-color: #0045ff;
+
+  color: #fff;
+}
+.primary-button {
+  width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #557087;
+  font-weight: 700;
+}
+
+.secondary-button {
+  background-color: #557087;
+  width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 5px;
+
+  color: #fff;
+}
+.third-button {
+  background-color: #0045ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 169px;
+  font-weight: 700;
+  height: 56px;
+  size: 14px;
+}
+.card-sm {
+  width: 345px;
+  height: 415px;
+  background-color: #e0e8f0;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-sm > h1 {
+  size: 20px;
+}
+.circle {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}

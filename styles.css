@@ -1,0 +1,37 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+img {
+  width: 400px;
+  height: 200px;
+  object-fit: fill;
+  border-radius: 5px;
+}
+h1 {
+  font-family: serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+button {
+  background-color: #cccc;
+  padding: 10px;
+  border: none;
+  color: #fff;
+}
